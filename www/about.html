@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About This Project</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+       
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(12px);
+            padding: 45px;
+            border-radius: 20px;
+        }
+        h1 { 
+            text-align: center; 
+            margin-bottom: 30px;
+        }
+        h2 { margin-top: 30px; }
+        ul { line-height: 2.0; font-size: 1.08rem; }
+        .back-btn {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 28px;
+            background: white;
+            color: #667eea;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>About This Project</h1>
+        
+        <p><strong>Main Topic:</strong> VPN (Virtual Private Network)<br>
+        <strong>Current Phase:</strong> Basic HTTP Web Server & Client in C</p>
+
+        <h2>Objective</h2>
+        <p>Develop a simple HTTP Server and Client that supports GET requests and serves static web pages from the <code>www</code> folder. This forms the foundation for understanding web communication before implementing VPN tunneling.</p>
+
+        <h2>Project Goals</h2>
+        <ul>
+            <li>Implement socket programming and TCP connection handling</li>
+            <li>Parse HTTP/1.1 GET requests and generate proper responses</li>
+            <li>Serve HTML, CSS, images and other files with correct MIME types</li>
+            <li>Build groundwork for future VPN tunneling project</li>
+        </ul>
+
+        <a href="/" class="back-btn">← Back to Home</a>
+    </div>
+</body>
+</html>

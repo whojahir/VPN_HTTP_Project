@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/jahirhossain/Desktop/VPN_HTTP_Project",
+      "program": "/Users/jahirhossain/Desktop/VPN_HTTP_Project/build/Debug/outDebug"
+    }
+  ]
+}
